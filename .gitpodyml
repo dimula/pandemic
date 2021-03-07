@@ -1,0 +1,13 @@
+image: gitpod/workspace-full
+tasks:
+ - init: npm install
+   command: npm run serve-gitpod
+ports: 
+ - port: 3000
+   onOpen: open-preview
+ - port: 3001
+   onOpen: ignore
+vscode:
+  extensions:
+    - abusaidm.html-snippets@0.2.1:7b7Vkkp6Lem9WOqKCYMq2w==
+    - Zignd.html-css-class-completion@1.19.0:b3YWQQIEP1z3u93nyLX0UA==
